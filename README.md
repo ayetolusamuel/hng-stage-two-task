@@ -12,6 +12,6 @@ zuri stage two task
 
 link to the app on appetize
 ![alt text](https://appetize.io/app/vcye8bzq0b7gvghhzdqbtk91gr)
+[a link](https://appetize.io/app/vcye8bzq0b7gvghhzdqbtk91gr)
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
