@@ -3,7 +3,7 @@ zuri stage two task
 
 # Screenshoot
 
-![alt text](https://github.com/ayetolusamuel/hng-stage-two-task/blob/master/images/Screenshot_20210818-090318.png)
+![alt text](https://github.com/ayetolusamuel/hng-stage-two-task/blob/master/images/hng.gif)
 
 ![alt text](https://github.com/ayetolusamuel/hng-stage-two-task/blob/master/images/Screenshot_20210818-090448.png)
 
