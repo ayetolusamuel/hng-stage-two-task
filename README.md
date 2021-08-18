@@ -1,7 +1,7 @@
 # hng-stage-two-task
 zuri stage two task
 
-##Screenshoot
+#Screenshoot
 
 ![alt text](https://github.com/ayetolusamuel/hng-stage-two-task/blob/master/images/Screenshot_20210818-090318.png)
 
@@ -10,7 +10,7 @@ zuri stage two task
 ![alt text](https://github.com/ayetolusamuel/hng-stage-two-task/blob/master/images/Screenshot_20210818-090511.png)
 
 
-link to the app on appetize
+#link to the app on appetize
 [Appetize](https://appetize.io/app/vcye8bzq0b7gvghhzdqbtk91gr)
 
 
