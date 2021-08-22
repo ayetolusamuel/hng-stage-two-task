@@ -3,7 +3,7 @@ zuri stage two task
 
 # Screenshoot
 
-![alt text](https://github.com/ayetolusamuel/hng-stage-two-task/blob/master/images/hng.gif)
+![alt text](https://github.com/ayetolusamuel/hng-stage-two-task/blob/master/images/hng_.gif)
 
 # link to the app on appetize
 [Appetize](https://appetize.io/app/cr7ukfuvk0ut1a2tc69zqu7m88)
