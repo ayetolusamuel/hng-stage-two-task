@@ -6,6 +6,6 @@ zuri stage two task
 ![alt text](https://github.com/ayetolusamuel/hng-stage-two-task/blob/master/images/hng.gif)
 
 # link to the app on appetize
-[Appetize](https://appetize.io/app/vcye8bzq0b7gvghhzdqbtk91gr)
+[Appetize](https://appetize.io/app/cr7ukfuvk0ut1a2tc69zqu7m88)
 
 
