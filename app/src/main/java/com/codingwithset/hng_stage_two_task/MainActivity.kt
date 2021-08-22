@@ -3,6 +3,7 @@ package com.codingwithset.hng_stage_two_task
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.codingwithset.hng_stage_two_task.databinding.ActivityMainBinding
+import com.codingwithset.hng_stage_two_task.extension.isValidEmail
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -25,27 +26,32 @@ class MainActivity : AppCompatActivity() {
 
     private fun isValidateFields(): Boolean {
         var flag = true;
-        if (binding.emailEdt.text.toString().isEmpty()) {
-            binding.emailEdt.error = "email address can't be empty."
-            flag = false
-        } else if (binding.nameEdt.text.toString().isEmpty()) {
-            binding.nameEdt.error = "full name can't be empty."
-            flag = false
-        } else if (binding.phoneEdt.text.toString().isEmpty()) {
-            binding.phoneEdt.error = "phone number can't be empty."
-            flag = false
-        } else if (binding.phoneEdt.text.toString().length != 11) {
-            binding.phoneEdt.error = "invalid phone number."
-            flag = false
+        when {
+            binding.emailEdt.text.toString().isEmpty() -> {
+                binding.emailEdt.error = "email address can't be empty."
+                flag = false
+            }
+            !binding.emailEdt.text.toString().isValidEmail() ->{
+                binding.emailEdt.error = "invalid email"
+                flag = false
+            }
+            binding.nameEdt.text.toString().isEmpty() -> {
+                binding.nameEdt.error = "full name can't be empty."
+                flag = false
+            }
+            binding.phoneEdt.text.toString().isEmpty() -> {
+                binding.phoneEdt.error = "phone number can't be empty."
+                flag = false
+            }
+            binding.phoneEdt.text.toString().length != 11 -> {
+                binding.phoneEdt.error = "invalid phone number."
+                flag = false
+            }
         }
         return flag
     }
 
-    private fun clearFields() {
-        binding.emailEdt.setText("")
-        binding.nameEdt.setText("")
-        binding.phoneEdt.setText("")
-    }
+
 
     companion object {
         val CLEAR_CONSTANT = "clear"
